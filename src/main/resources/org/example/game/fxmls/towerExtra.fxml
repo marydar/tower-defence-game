@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="50.0" prefWidth="148.0" style="-fx-background-color: black; -fx-opacity: 0.8; -fx-background-radius: 10;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.game.view.TowerExtraC">
+    <children>
+        <JFXButton fx:id="level1" layoutX="10.0" layoutY="12.0" onAction="#delete" style="-fx-background-color: transparent; -fx-border-radius: 10; -fx-border-color: white; -fx-text-fill: white;" text="DELETE" />
+        <JFXButton fx:id="level2" layoutX="79.0" layoutY="12.0" onAction="#updata" style="-fx-background-color: transparent; -fx-border-radius: 10; -fx-border-color: white; -fx-text-fill: white;" text="UPDATE" />
+
+    </children>
+
+</AnchorPane>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="120.0" prefWidth="150.0" style="-fx-background-color: transparent;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.game.view.TowersC">
+   <children>
+      <ImageView fitHeight="144.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/towers.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="25.0" fitWidth="27.0" layoutX="33.0" layoutY="18.0" onMouseClicked="#wizard" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/arcane.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="23.0" fitWidth="27.0" layoutX="62.0" layoutY="104.0" onMouseClicked="#close" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/close.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="25.0" fitWidth="26.0" layoutX="18.0" layoutY="66.0" onMouseClicked="#mages" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/mages.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="27.0" fitWidth="42.0" layoutX="87.0" layoutY="17.0" onMouseClicked="#artillery" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/dwarvan.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="39.0" fitWidth="26.0" layoutX="103.0" layoutY="65.0" onMouseClicked="#archer" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/archer.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

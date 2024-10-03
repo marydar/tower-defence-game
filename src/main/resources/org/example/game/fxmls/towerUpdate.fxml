@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="50.0" prefWidth="300.0" style="-fx-background-color: black; -fx-opacity: 0.8; -fx-background-radius: 10;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.game.view.TowerUpdateC">
+   <children>
+      <JFXButton fx:id="level1" layoutX="13.0" layoutY="14.0" onAction="#level1Click" style="-fx-background-color: transparent; -fx-border-radius: 10; -fx-border-color: white; -fx-text-fill: white;" text="Level-1" />
+      <JFXButton fx:id="level2" layoutX="82.0" layoutY="14.0" onAction="#level2Click" style="-fx-background-color: transparent; -fx-border-radius: 10; -fx-border-color: white; -fx-text-fill: white;" text="Level-2" />
+      <JFXButton fx:id="level3" layoutX="156.0" layoutY="14.0" onAction="#level3Click" style="-fx-background-color: transparent; -fx-border-radius: 10; -fx-border-color: white; -fx-text-fill: white;" text="Level-3" />
+      <JFXButton fx:id="level4" layoutX="227.0" layoutY="13.0" onAction="#level4Click" style="-fx-background-color: transparent; -fx-border-radius: 10; -fx-border-color: white; -fx-text-fill: white;" text="Level-4" />
+   </children>
+</AnchorPane>
